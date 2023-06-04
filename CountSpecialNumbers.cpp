@@ -1,5 +1,5 @@
 int countSpecialNumbers(int n, vector<int> a) {
-        // Code here
+     
         sort(a.begin(),a.end());
         unordered_map<int,int> m;
         int an=0;
